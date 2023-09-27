@@ -5,7 +5,9 @@
 </script>
 
 <div class="app bg-secondary-light dark:bg-secondary-dark text-black dark:text-white duration-200">
-	<Navbar />
+	<div>
+		<Navbar />
+	</div>
 	<main>
 		<slot />
 	</main>
