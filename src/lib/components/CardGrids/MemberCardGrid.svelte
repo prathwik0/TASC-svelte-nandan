@@ -1,5 +1,5 @@
-<script>
-    import {TwoThree, TwoTwo} from "$lib/data/Members.js";
+<script lang="ts">
+    import {TwoThree, TwoTwo, TwoOne} from "$lib/data/Members.js";
     import Icon from 'svelte-icons-pack/Icon.svelte';
     import BsInstagram from 'svelte-icons-pack/bs/BsInstagram';
     import BsGithub from 'svelte-icons-pack/bs/BsGithub';
@@ -12,6 +12,8 @@
         data = TwoTwo;
     } else if (year === '2023') {
         data = TwoThree;
+    }else if(year === '2021'){
+        data = TwoOne;
     }
 </script>
 

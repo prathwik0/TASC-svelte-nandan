@@ -1,3 +1,43 @@
+export const TwoOne = [
+    {
+        image: '/Images/Team/Sidharth.jpg',
+        name: 'Sidharth Ajul',
+        role: 'President',
+        instagram: 'https://instagram.com/sidharth_ajul_?igshid=MzRlODBiNWFlZA==',
+    },
+    {
+        image: '/Images/Team/Meghana.jpg',
+        name: 'Meghana Bhat P',
+        role: 'Secretary',
+    },
+    {
+        image: '/Images/Team/Krishna.jpg',
+        name: 'Krishna M S',
+        role: 'Join Secretary',
+        instagram: 'https://instagram.com/krish_sree06?igshid=MzRlODBiNWFlZA==',
+    },
+    {
+        image: '/Images/Team/Brijwin.jpg',
+        name: 'Brijwin Balakrishna',
+        role: 'Treasurer',
+    },
+    {
+        image: '/Images/Team/Omar.jpg',
+        name: 'Omar Mahmood',
+        role: 'Technical Secretary',
+    },{
+        image: '/Images/Team/Treenal.jpg',
+        name: 'Treenal Pinto',
+        role: 'Cultural Coordinator',
+    },
+    {
+        image: '/Images/Team/Sanketh.jpg',
+        name: 'B S Sanketh Bhat',
+        role: 'Sports Coordinator',
+    },
+
+]
+
 export const TwoTwo = [
     {
         image: '/Images/Team/Omar.jpg',
@@ -32,7 +72,7 @@ export const TwoTwo = [
     {
         image: '/Images/Team/Anagha.jpg',
         name: 'Anagha N',
-        role: 'Join Cultural Secretary',
+        role: 'Joint Cultural Secretary',
     },
     {
         image: '/Images/Team/Apeksha.jpg',
@@ -42,7 +82,7 @@ export const TwoTwo = [
     {
         image: '/Images/Team/Ajay.jpg',
         name: 'Ajay Johan Braggs',
-        role: 'Join Sports Secretary',
+        role: 'Joint Sports Secretary',
     },
     {
         image: '/Images/Team/Nishanth.jpg',
@@ -179,6 +219,8 @@ export const TwoThree =[
         image: '/Images/Team/Pooja.jpg',
         name: 'Pooja Kotian',
         role: 'Cultural Secretary',
+        instagram: 'https://instagram.com/xx.poooh?igshid=OGQ5ZDc2ODk2ZA==',
+        linkedin: 'linkedin.com/in/pooja-kotian-',
     },
     {
         image: '/Images/Team/Bob.jpg',
