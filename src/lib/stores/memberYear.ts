@@ -1,2 +1,2 @@
 import {writable} from 'svelte/store'
-export const memberYear = writable('2020')
+export const memberYear = writable('2020');
