@@ -1,6 +1,6 @@
 export const TwoOne = [
     {
-        image: '/Images/Team/Sidharth.jpg',
+        image: 'https://firebasestorage.googleapis.com/v0/b/tasc-8df79.appspot.com/o/Images%2FTeam%2FSidharth.jpg?alt=media&token=3b3f5d00-8b92-4c7a-8881-3ffd30139263&_gl=1*13i9oht*_ga*MTE2MzE3ODExMC4xNjk1Mzg4Nzkx*_ga_CW55HF8NVT*MTY5NTg5NTY1Ny45LjEuMTY5NTg5NjYxMi40My4wLjA.',
         name: 'Sidharth Ajul',
         role: 'President',
         instagram: 'https://instagram.com/sidharth_ajul_?igshid=MzRlODBiNWFlZA==',

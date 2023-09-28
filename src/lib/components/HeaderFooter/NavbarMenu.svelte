@@ -4,7 +4,7 @@
     import AiOutlineClose from 'svelte-icons-pack/ai/AiOutlineClose';
     import {menuToggle} from "$lib/stores/menuToggle";
     const toggleMenu = () => {
-        menuToggle.set(!$menuToggle); // Toggle the menu state
+        menuToggle.set(!$menuToggle);
     };
 
 </script>

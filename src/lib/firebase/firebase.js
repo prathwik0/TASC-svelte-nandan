@@ -4,13 +4,13 @@ import {getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: import.meta.env.api_key,
-    authDomain: import.meta.env.auth_domain,
-    projectId: import.meta.env.project_Id,
-    storageBucket: import.meta.env.storage_Bucket,
-    messagingSenderId: import.meta.env.messaging_Sender_Id,
-    appId: import.meta.env.app_Id,
-    measurementId: import.meta.env.measurement_Id
+    apiKey: "AIzaSyDkfk7CuVog5P79QgJ5kfONzGr3Rpfi2dU",
+    authDomain: "tasc-8df79.firebaseapp.com",
+    projectId: "tasc-8df79",
+    storageBucket: "tasc-8df79.appspot.com",
+    messagingSenderId: "64049164136",
+    appId: "1:64049164136:web:b18434312a0fa3b5e2b0dd",
+    measurementId: "G-Q5EYD8MDVW"
 };
 
 // Initialize Firebase
