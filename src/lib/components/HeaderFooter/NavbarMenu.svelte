@@ -16,7 +16,7 @@
     <ul class="space-y-16 pt-32">
         {#each NAVITEM as item}
             <a href={`${item.href}`} >
-                <li class="text-white dark:text-black text-3xl mb-5 text-center "><button on:click={toggleMenu}>{item.title}</button></li>
+                <li class="text-white dark:text-black text-3xl mb-5 text-center  "><button on:click={toggleMenu}>{item.title}</button></li>
             </a>
         {/each}
     </ul>
