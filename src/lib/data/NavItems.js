@@ -5,7 +5,7 @@ export const NAVITEM = [
     },
     {
         title: 'Team',
-        href: '/team'
+        href: '/team/2023'
     },
     {
         title: 'Faculty',

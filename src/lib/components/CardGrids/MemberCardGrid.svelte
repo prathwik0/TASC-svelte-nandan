@@ -5,7 +5,7 @@
     import BsGithub from 'svelte-icons-pack/bs/BsGithub';
     import BsLinkedin from 'svelte-icons-pack/bs/BsLinkedin';
 
-    export let year;
+    export let year:string;
     let data = TwoThree;
 
     $: if (year === '2022') {
@@ -17,9 +17,9 @@
     }
 </script>
 
-<div class="md:grid md:grid-cols-3 md:gap-6 md:gap-y-14 lg:px-16 md:px-12 px-6 space-y-10 md:space-y-0 pb-28">
+<div class="grid-container gap-10 lg:px-16 md:px-12 px-6 space-y-10 md:space-y-0 pb-28">
     {#each data as member}
-        <div  class={' mx-8 md:mx-16 bg-muted-light dark:bg-muted-dark rounded-lg shadow-xl dark:drop-shadow-md dark:shadow-gray-700  py-8 px-5 hover:scale-110 duration-200'}>
+        <div  class={'min-w-full bg-muted-light dark:bg-muted-dark rounded-xl shadow-xl dark:drop-shadow-md dark:custom-shadow-black py-8 px-5 hover:scale-110 duration-200'}>
             <div class={'flex justify-center'}>
                 <img
                         src={member.image}
@@ -51,3 +51,15 @@
         </div>
     {/each}
 </div>
+
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+        justify-items: center;
+        justify-content: end;
+        align-content: end;
+        row-gap: 4rem;
+    }
+</style>

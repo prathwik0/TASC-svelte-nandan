@@ -26,9 +26,9 @@
         {/each}
     </ul>
     <div class="items-center flex space-x-5">
-        <button class="bg-brand text-white px-4 py-2 rounded-xl hover:scale-110 duration-200 md:block hidden">
-            Login
-        </button>
+<!--        <button class="bg-brand text-white px-4 py-2 rounded-xl hover:scale-110 duration-200 md:block hidden">-->
+<!--            Login-->
+<!--        </button>-->
         <div ><ThemeToggle /></div>
         <button class="md:hidden" on:click={toggleMenu}>
             <Icon src={CgMenu} size="30"/>
@@ -38,6 +38,6 @@
 
 
     <div class={`md:hidden ${menuToggle? '' : 'hidden'} fixed z-50 top-0 right-0`} transition:fade={{ delay: 250, duration: 300 }}>
-        <NavbarMenu {menuToggle}/>
+        <NavbarMenu {$menuToggle}/>
     </div>
 </section>
